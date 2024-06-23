@@ -6,6 +6,10 @@
 	objectVersion = 56;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		996C134D2C27C99D009B2E89 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C134C2C27C99D009B2E89 /* main.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		99F1233F2C133041007014E5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -19,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		996C134C2C27C99D009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9972817D2C25C544005B4DC7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9972817F2C25C6A8005B4DC7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9995D03E2C26944D001240B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -43,6 +48,14 @@
 			);
 			name = "Lv2_최댓값과 최솟값";
 			path = "Lv2_최";
+			sourceTree = "<group>";
+		};
+		996C134B2C27C979009B2E89 /* Easy_2553_Separate the Digits in an Array */ = {
+			isa = PBXGroup;
+			children = (
+				996C134C2C27C99D009B2E89 /* main.swift */,
+			);
+			path = "Easy_2553_Separate the Digits in an Array";
 			sourceTree = "<group>";
 		};
 		9995D03D2C269405001240B7 /* Medium_54_Spiral Matrix */ = {
@@ -98,6 +111,7 @@
 		99F757EF2C25779C00C99F63 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				996C134B2C27C979009B2E89 /* Easy_2553_Separate the Digits in an Array */,
 				9995D03D2C269405001240B7 /* Medium_54_Spiral Matrix */,
 			);
 			path = LeetCode;
@@ -162,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				996C134D2C27C99D009B2E89 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
