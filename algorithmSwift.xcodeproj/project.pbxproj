@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		996C13592C28F61D009B2E89 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C13582C28F61D009B2E89 /* main.swift */; };
+		996C135C2C28F6A5009B2E89 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996C135B2C28F6A5009B2E89 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,7 @@
 		996C13522C27FCBC009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		996C13552C28F58A009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		996C13582C28F61D009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		996C135B2C28F6A5009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9972817D2C25C544005B4DC7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9972817F2C25C6A8005B4DC7 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		9995D03E2C26944D001240B7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -96,6 +97,15 @@
 			path = "Silver4_10773_제로";
 			sourceTree = "<group>";
 		};
+		996C135A2C28F66E009B2E89 /* Bronze2_1159_농구 경기 */ = {
+			isa = PBXGroup;
+			children = (
+				996C135B2C28F6A5009B2E89 /* main.swift */,
+			);
+			name = "Bronze2_1159_농구 경기";
+			path = "Bronze2_1159_농구 경기";
+			sourceTree = "<group>";
+		};
 		9995D03D2C269405001240B7 /* Medium_54_Spiral Matrix */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +144,7 @@
 		99F757ED2C25768C00C99F63 /* BOJ */ = {
 			isa = PBXGroup;
 			children = (
+				996C135A2C28F66E009B2E89 /* Bronze2_1159_농구 경기 */,
 				996C13572C28F601009B2E89 /* Silver4_10773_제로 */,
 				996C13542C28F543009B2E89 /* Silver5_7568_덩치 */,
 			);
@@ -218,7 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				996C13592C28F61D009B2E89 /* main.swift in Sources */,
+				996C135C2C28F6A5009B2E89 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
