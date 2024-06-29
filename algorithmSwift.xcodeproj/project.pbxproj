@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9974F3E52C302AF40059F76F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9974F3E42C302AB60059F76F /* main.swift */; };
+		9968F31F2C302B9A007F280A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9968F31E2C302B9A007F280A /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9968F31E2C302B9A007F280A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		996C134C2C27C99D009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		996C134F2C27F9E0009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		996C13522C27FCBC009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -126,6 +127,15 @@
 			path = "Lv2_최소";
 			sourceTree = "<group>";
 		};
+		9974F3E62C302B230059F76F /* Lv2_올바른 괄호 */ = {
+			isa = PBXGroup;
+			children = (
+				9968F31E2C302B9A007F280A /* main.swift */,
+			);
+			name = "Lv2_올바른 괄호";
+			path = "Lv2_올";
+			sourceTree = "<group>";
+		};
 		9995D03D2C269405001240B7 /* Medium_54_Spiral Matrix */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +184,7 @@
 		99F757EE2C25778700C99F63 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				9974F3E62C302B230059F76F /* Lv2_올바른 괄호 */,
 				996C139B2C30297A009B2E89 /* Lv2_최솟값 만들기 */,
 				996C13982C30233D009B2E89 /* Lv2_JadenCase 문자열 만들기 */,
 				99615CE92C25C4A900DB0F00 /* Lv2_최댓값과 최솟값 */,
@@ -251,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9974F3E52C302AF40059F76F /* main.swift in Sources */,
+				9968F31F2C302B9A007F280A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
