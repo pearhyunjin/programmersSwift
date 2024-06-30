@@ -7,6 +7,8 @@
 
 import Foundation
 
+let n = 78
+
 func solution(_ n:Int) -> Int
 {
     var binary = String(n, radix: 2)
@@ -22,3 +24,5 @@ func solution(_ n:Int) -> Int
     }
     return n
 }
+
+print(solution(n))
