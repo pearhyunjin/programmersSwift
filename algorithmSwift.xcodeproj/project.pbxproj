@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		993DAE002C31A9C10080B466 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993DADFF2C31A9C10080B466 /* main.swift */; };
+		993E6BC32C3C360A0092B8A6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E6BC22C3C360A0092B8A6 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		993DADFF2C31A9C10080B466 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		993E6BC22C3C360A0092B8A6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9968F31E2C302B9A007F280A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		996C134C2C27C99D009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		996C134F2C27F9E0009B2E89 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -50,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		99574A582C3C057E00E726C7 /* Lv2_ */ = {
+			isa = PBXGroup;
+			children = (
+				993E6BC22C3C360A0092B8A6 /* main.swift */,
+			);
+			path = Lv2_;
+			sourceTree = "<group>";
+		};
 		99615CE92C25C4A900DB0F00 /* Lv2_최댓값과 최솟값 */ = {
 			isa = PBXGroup;
 			children = (
@@ -194,6 +203,7 @@
 		99F757EE2C25778700C99F63 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
+				99574A582C3C057E00E726C7 /* Lv2_ */,
 				997678B82C31A97E0074C418 /* Lv2_다음_큰_숫자 */,
 				9974F3E62C302B230059F76F /* Lv2_올바른 괄호 */,
 				996C139B2C30297A009B2E89 /* Lv2_최솟값 만들기 */,
@@ -273,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				993DAE002C31A9C10080B466 /* main.swift in Sources */,
+				993E6BC32C3C360A0092B8A6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
